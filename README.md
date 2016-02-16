@@ -397,6 +397,10 @@ _329 TILs and counting..._
 - [Whole Line Auto-Completion](vim/whole-line-auto-completion.md)
 - [Wrap With Some Room](vim/wrap-with-some-room.md)
 
+### PowerShell
+
+- [Get a user's password expiration date](powershell/get-password-expiration-with-active-pso.md)
+
 ## About
 
 I shamelessly stole this idea from
