@@ -1,0 +1,1 @@
+Get-ADUser %username% -properties samaccountname,passwordlastset,"msDS-UserPasswordExpiryTimeComputed" | Select-Object samaccountname,passwordlastset,@{Name="ExpiryDate";Expression={[datetime]::FromFileTime($_."msDS-UserPasswordExpiryTimeComputed")}}
